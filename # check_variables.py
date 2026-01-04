@@ -3,6 +3,7 @@
 
 # IMPORTS
 import home
+import streamlit as st
 
 # Lista delle variabili richieste dal template Streamlit
 required_vars = {
