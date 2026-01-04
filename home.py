@@ -4,11 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-<<<<<<< HEAD
     page_title="Alessandro Postiglione Portfolio",
-=======
-    page_title="<Your Name> Portfolio",
->>>>>>> ec241333df151c5ac28158baf639bdef1755edb6
     page_icon="📊",
 )
 
@@ -20,20 +16,14 @@ def home_page():
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
         st.write("***Final Project - Dec 2025***")
-<<<<<<< HEAD
+
         st.write("**Author:** Alessandro Postiglione ")
-=======
-        st.write("**Author:** <Your Name>")
->>>>>>> ec241333df151c5ac28158baf639bdef1755edb6
+
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
     # ----- Top title -----
-<<<<<<< HEAD
     st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Alessandro Postiglione</h1></div>""")  # TODO: Add your name
-=======
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Python</h1></div>""")  # TODO: Add your name
->>>>>>> ec241333df151c5ac28158baf639bdef1755edb6
 
 
     # ----- Profile image file -----
@@ -52,19 +42,11 @@ def home_page():
 
 
     # ----- Personal title or short description -----
-<<<<<<< HEAD
     current_role = "Master in Big Data & Analytics"   
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
     st.write("#  #")    # Adding some space
-=======
-    current_role = "Current Role and/or Studies or Description"   # TODO: Change this
-
-    st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
-
-    st.write("##")    # Adding some space
->>>>>>> ec241333df151c5ac28158baf639bdef1755edb6
 
 
     # ----- About me section -----
@@ -72,34 +54,15 @@ def home_page():
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write("""
-<<<<<<< HEAD
     - 🧑‍💻 I'm attending a Master in Big Data & Analytics at EAE Business School
 
     - 🛩️ prev: <Master's Degree in Business Administration>
 
     - 📫 How to reach me: postiglione127@gmail.com
-=======
-    - 🧑‍💻 I am a <Current Role and/or Studies> 
-
-    - 🛩️ prev: <Previous Experience, Background or Studies>
-
-    - ❤️ <Your Passion and/or Interests>
-
-    - 🤖 <Your Personal Projects>
-
-    - 🏂 <Your Hobbies>
-
-    - 📫 How to reach me: <Your Email>
->>>>>>> ec241333df151c5ac28158baf639bdef1755edb6
 
     - 🏠 Barcelona
     """)
 
-<<<<<<< HEAD
-
-=======
-    # Feel free to add other points like your Linkedin, Github, Social Media, etc.
->>>>>>> ec241333df151c5ac28158baf639bdef1755edb6
 
 
 # This is ensambling the entire app with the different pages and the navigation menu
